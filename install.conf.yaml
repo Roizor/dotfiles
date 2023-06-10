@@ -2,4 +2,10 @@
   link:
     relink: true
 
+- link:
+  ~/.config:
+    glob: true
+    path: config/*
+    link: true
+
 - clean: ['~']
